@@ -4,7 +4,8 @@
   "info": {
     "singularName": "homepage",
     "pluralName": "homepages",
-    "displayName": "homepage"
+    "displayName": "homepage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,14 +13,15 @@
   "pluginOptions": {},
   "attributes": {
     "carousel": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "quote": {
       "type": "string"
@@ -31,14 +33,15 @@
       "type": "text"
     },
     "mugshot": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "aboutLifeStyleHeader": {
       "type": "string"
@@ -47,6 +50,23 @@
       "type": "text"
     },
     "lifeStylePicture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "letsChatHeader": {
+      "type": "string"
+    },
+    "letsChatContent": {
+      "type": "string"
+    },
+    "logo": {
       "allowedTypes": [
         "images",
         "files",
@@ -55,12 +75,6 @@
       ],
       "type": "media",
       "multiple": false
-    },
-    "letsChatHeader": {
-      "type": "string"
-    },
-    "letsChatContent": {
-      "type": "string"
     }
   }
 }

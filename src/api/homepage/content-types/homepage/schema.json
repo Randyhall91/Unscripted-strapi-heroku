@@ -76,6 +76,22 @@
         "videos",
         "audios"
       ]
+    },
+    "review": {
+      "type": "string"
+    },
+    "reviewName": {
+      "type": "string"
+    },
+    "reviewImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

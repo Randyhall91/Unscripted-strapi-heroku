@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "pricingpages",
+  "info": {
+    "singularName": "pricingpage",
+    "pluralName": "pricingpages",
+    "displayName": "pricingpage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "titleImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

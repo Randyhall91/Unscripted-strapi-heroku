@@ -16,19 +16,40 @@
       "type": "string"
     },
     "headerImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "description": {
       "type": "text"
     },
     "descripitionImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "session": {
+      "type": "richtext"
+    },
+    "review": {
+      "type": "string"
+    },
+    "reviewName": {
+      "type": "string"
+    },
+    "reviewImg": {
       "allowedTypes": [
         "images",
         "files",
@@ -37,15 +58,6 @@
       ],
       "type": "media",
       "multiple": false
-    },
-    "sessionHeader": {
-      "type": "string"
-    },
-    "sessionHeaderWarning": {
-      "type": "string"
-    },
-    "ession": {
-      "type": "richtext"
     }
   }
 }

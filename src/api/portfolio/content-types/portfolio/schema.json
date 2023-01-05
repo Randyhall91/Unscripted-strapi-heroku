@@ -1,10 +1,10 @@
 {
-  "kind": "collectionType",
-  "collectionName": "profile_pages",
+  "kind": "singleType",
+  "collectionName": "portfolios",
   "info": {
-    "singularName": "profile-page",
-    "pluralName": "profile-pages",
-    "displayName": "profilePage"
+    "singularName": "portfolio",
+    "pluralName": "portfolios",
+    "displayName": "portfolio"
   },
   "options": {
     "draftAndPublish": true

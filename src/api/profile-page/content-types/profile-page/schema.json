@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "profile_pages",
+  "info": {
+    "singularName": "profile-page",
+    "pluralName": "profile-pages",
+    "displayName": "profilePage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imgs": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
